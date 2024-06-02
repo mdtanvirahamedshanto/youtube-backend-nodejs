@@ -1,0 +1,160 @@
+{
+    // editor
+    "editor.fontSize": 20,
+    // "editor.fontWeight": "500",
+    "editor.fontFamily": "JetBrains Mono , Fira Code, Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "code-runner.runInTerminal": true,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": "off",
+      "strings": "off"
+    },
+    // auto suggetion
+  
+    // Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.
+    "editor.acceptSuggestionOnCommitCharacter": true,
+  
+    // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+    "editor.acceptSuggestionOnEnter": "on",
+  
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 10,
+  
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": true,
+  
+    // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+    "editor.tabCompletion": "off",
+  
+    // Controls whether sorting favours words that appear close to the cursor
+    "editor.suggest.localityBonus": true,
+  
+    // Controls how suggestions are pre-selected when showing the suggest list
+    "editor.suggestSelection": "first",
+  
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": "matchingDocuments",
+  
+    // Enable parameter hints
+    "editor.parameterHints.enabled": true,
+  
+    // auto seggetion end
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            // "fontStyle": "italic"
+            "foreground": "#a19e9d"
+          }
+        }
+      ]
+    },
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 0,
+    // prretier config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.alwaysShowStatus": true,
+    //terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "JetBrains Mono , Fira Code, Operator Mono",
+    // terminal customization
+    "workbench.colorCustomizations": {
+      "terminal.background": "#1D2021",
+      "terminal.foreground": "#4898ce",
+      "terminalCursor.background": "#A89984",
+      "terminalCursor.foreground": "#A89984",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#2d0ce6",
+      "terminal.ansiCyan": "#8BA59B",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B",
+      "editorCursor.foreground": "#0ff0f0"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": true,
+    "tabnine.experimentalAutoImports": true,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // Eslint
+    "eslint.run": "onSave",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.excludedItems": {
+      "*/.js": {
+        "when": "**"
+      },
+      "*/.jsx": {
+        "when": "**"
+      },
+      "*/.ts": {
+        "when": "**"
+      },
+      "*/.tsx": {
+        "when": "**"
+      }
+    },
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "terminal.integrated.env.windows": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.stickyScroll.enabled": false
+  }
+  
